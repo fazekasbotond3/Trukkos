@@ -20,18 +20,37 @@
             
     </h1>
 
-    <p>
+    <div class="navbar">
+        <!-- ez kell ahhoz hogy egyaltalan keszits egy navabart -->
 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/FordGlassHouse.jpg/480px-FordGlassHouse.jpg"
-            alt="gyarto.jpg">
-    </p>
+        <div class="dropdown">
+            <!-- ez meg a lenyilos cucchoz -->
 
-    <p>
-        <b>Gyártó</b>
-    </p>
+          <button class="dropbtn">
+              <!-- ez a gomb fajtaja, ezt is meg kell adni ha lenyilos gombot akarsz egy navbarban -->
 
-    <a href="https://hu.wikipedia.org/wiki/Ford_Mustang">Forrás</a>
+            <p></p>
+            <p></p>
+            <p></p>
 
+          </button>
+
+          <div class="dropdown-content">
+              <!-- ez kell ahhoz hogy a legordulo cuccba tudjal dolgokat irni mint peldaul ezek az <a ref>-es cuccok -->
+
+            <a href="asd">Gyártó</a>
+            <a href="asd">Modellek</a>
+            <a href="asd">Feltalálók</a>
+            <a href="asd">Galéria</a>
+            <a href="asd">Kapcsolatok</a>
+            <a href="asd">Forrás</a>
+            <a href="asd">Impresszum</a>
+
+          </div>
+
+        </div> 
+
+      </div>
 
 </body>
 
