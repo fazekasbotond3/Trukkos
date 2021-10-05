@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ford mustang</title>
+</head>
+
+<body>
+
+    <h1>
+        Ford Mustang
+    </h1>
+        <h1 id="kep">
+            <img style="border: none;" src="images/mustang logo2.png"
+            alt="mustanglogo.png" width="100" height="100">
+            
+    </h1>
+
+    <p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/FordGlassHouse.jpg/480px-FordGlassHouse.jpg"
+            alt="gyarto.jpg">
+    </p>
+
+    <p>
+        <b>Gyártó</b>
+    </p>
+
+    <a href="https://hu.wikipedia.org/wiki/Ford_Mustang">Forrás</a>
+
+
+</body>
+
+</html>
