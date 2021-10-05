@@ -1,0 +1,36 @@
+@font-face {
+    font-family: rubik-italic-variablefont_wght;
+    src: url('Rubik-Italic-VariableFont_wght.ttf');
+}
+
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJgQmxKUmGd1kTUEcyysQlFjipGK0m3zKrcHuDLqrX3G2EZI7mKhZozTfKYPMv9jmm1ss&usqp=CAU');
+    background-size: 1920px;
+}
+
+h1{
+    color:rgb(192, 192, 192);
+    font-size: 24px;
+    font-family:rubik-italic-variablefont_wght ;
+    text-align: center;
+    background-color: rgb(6, 34, 77);
+}
+
+p{
+    text-align: center;
+    font-size: 16px;
+    font-family:rubik-italic-variablefont_wght ;
+    color: rgb(31, 17, 3);
+    border: rgb(31, 17, 3);
+    
+}
+#kep{
+    text-align: right;
+}
+
+img{
+    border: 5px solid rgb(9, 30, 70);
+}
+
+
+
