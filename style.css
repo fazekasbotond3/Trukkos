@@ -1,0 +1,126 @@
+@font-face {
+    font-family: rubik-italic-variablefont_wght;
+    src: url('Rubik-Italic-VariableFont_wght.ttf');
+}
+
+body, html{
+    height: 100%;
+    background-size: 100%;
+    background-color: black;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color:black;
+    background-color: rgba(0,0,0,0.60);
+    width: 62px;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-family:rubik-italic-variablefont_wght ;
+    margin-left: 47%;
+    /* maga az egesz navbar(nem a dropdown gomb) kinezete es tulajdonsagai + amikor lenyitod a navbart akkor az ott levo betutipust valtoztatja (mert azok a navbar reszei) */
+  }
+   
+
+ .dropdown{
+    float: left;
+    overflow: hidden;
+    /* nemtom mi ez de igy kell lennie/benne kell lennie az a lenyeng */
+ }
+
+ .dropdown, #dropbtn{
+     font-size: 16px;
+     border: none;
+     outline: none;
+     padding: 4px 2px;
+     color: white;
+     text-align: center;
+     width: 58px;
+     background-color:rgb(126, 126, 126);
+     background-color: rgba(126,126,126,0.01);
+     /* maga a dropdown gomb tulajdonsagai (a border azert  nem itt van mert az a border nem a gomb bordere hanem az egesz navbare) */
+ }
+
+ .navbar a:hover, .dropdown:hover, #dropbtn:hover {
+    background-color: black;
+    color: white;
+    /* az egesz navbarban levo ugymond gombok (amik nem lenyithatoak azok is) ilyenne valtoznak ha raviszed a kurzort  */
+    /* a .navbar a:hover az a tobbi navabaron levo mezore lenne ervenyes de nekem olyanom most nincs, tehat az igazabol nem is kene odairni ebben az esetben, a .dropdown:hover.... az meg a lenyilos mezomre ervenyes */
+  }
+  
+
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: black;
+     background-color: rgba(0,0,0,0.60);
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.19);
+     z-index: 1;
+     color: rgb(165, 143, 143);
+     border-radius: 12px;
+     /* ezek a lenyitott ablaknak a tulajdonsagai */
+ }
+
+ .dropdown-content a {
+     float: none;
+     color:rgb(192, 192, 192);
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     text-align: left;
+     border-radius: 12px;
+     border:none
+     /* ezek a lenyitott ablakban levo irasok es azok rublikajainak tulajdonsagai */
+ }
+
+ .dropdown-content a:hover{
+     background-color: black;
+     color: white
+     /* ezek ugyan azok az irasok es rublikak tulajdonsagai amikor rajuk viszed a kurzort */
+ }
+ .dropdown:hover .dropdown-content {
+    display:block;
+    /* ennek kb mindig blockon kell lennie asszem azt jelenti hogy milyen formaban vagy miben jelenitse meg a lenyitott ablakot */
+  }
+
+p{
+    text-align: center;
+    font-size: 16px;
+    font-family: rubik-italic-variablefont_wght;
+    font-weight: bold;
+    color:white;
+}
+
+.background{
+    background-image: url(images/mustang.jpg);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+
+}
+.others{
+    background-color: black;
+    background-color: rgba(0,0,0,0.60);
+    color: white;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 60%;
+    padding: 50px;
+    text-align: center;
+    font-family: rubik-italic-variablefont_wght;
+
+}
+
+
+
