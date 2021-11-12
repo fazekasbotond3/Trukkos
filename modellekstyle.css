@@ -1,0 +1,93 @@
+@font-face {
+    font-family: rubik-italic-variablefont_wght;
+    src: url('Rubik-Italic-VariableFont_wght.ttf');
+}
+
+body, html{
+    height: 100%;
+    background-color: black;
+    background-image: url(hatter.jpg);
+    background-size: 150%;
+}
+
+.content{
+    position: absolute;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.60);
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+    text-align: center;
+    top: 5px;
+}
+h1{
+    font-family: rubik-italic-variablefont_wght;
+    margin-left: 10%;
+    color: black;
+}
+h2{
+    color: black;
+    font-family: rubik-italic-variablefont_wght;
+    margin-left: 10%;
+    border: rgb(82, 80, 80) solid 3px;
+    border-radius: 12px;
+    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: rgb(68, 67, 67) 15px 15px 20px;
+}
+img{
+    border: rgb(82, 80, 80) solid 3px;
+    border-radius: 12px;
+    margin-right: 10%;
+    float: right;
+    box-shadow: rgb(68, 67, 67) 15px 15px 20px;
+    transform: rotate(2deg);
+    position: relative;
+}
+
+#teszt{
+    position: absolute;
+    opacity: 0;
+    transform: opacity 2s ease;
+    margin-left: 49.65%;
+    border: none;
+    box-shadow: none;
+}
+
+#teszt:hover{
+    opacity: 1;
+}
+
+#elso{
+    width: 10%;
+}
+#masodik{
+    width: 17%;
+}
+#harmadik{
+    width: 12%;
+}
+#negyedik{
+    width: 12%;
+}
+#otodik{
+    width: 15%;
+}
+#utso{
+    margin-bottom: 5%;
+}
+#logo{
+    border: none;
+    box-shadow: none;
+    float: right;
+    box-shadow: rgb(68, 67, 67) 5px 5px 10px 5px;
+    background-color: none;
+    transform: rotate(5deg);
+}
+
+@media screen and (max-width:600px) {
+    #text{
+        margin-left: 10%;
+    }
+}
