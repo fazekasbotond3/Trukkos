@@ -6,8 +6,8 @@
 body, html{
     height: 100%;
     background-color: black;
-    background-image: url(hatter.jpg);
-    background-size: 150%;
+    background-image: url(mustangososos.jpg);
+    background-size: 360%;
 }
 
 .content{
@@ -30,14 +30,13 @@ h2{
     color: black;
     font-family: rubik-italic-variablefont_wght;
     margin-left: 10%;
-    border: rgb(82, 80, 80) solid 3px;
     border-radius: 12px;
-    background-color: gray;
-    background-color: rgba(0, 0, 0, 0.2);
-    box-shadow: rgb(68, 67, 67) 15px 15px 20px;
+    background-color: rgb(92, 91, 91);
+    border: black solid 3px;
+    box-shadow: rgb(43, 42, 42) 15px 15px 20px;
 }
 img{
-    border: rgb(82, 80, 80) solid 3px;
+    border: rgb(27, 26, 26) solid 3px;
     border-radius: 12px;
     margin-right: 10%;
     float: right;
@@ -49,7 +48,7 @@ img{
 #teszt{
     position: absolute;
     opacity: 0;
-    transform: opacity 2s ease;
+    transition: opacity 0.5s ease;
     margin-left: 49.65%;
     border: none;
     box-shadow: none;
@@ -61,6 +60,7 @@ img{
 
 #elso{
     width: 10%;
+    background-color: rgb(124, 124, 124);
 }
 #masodik{
     width: 17%;
