@@ -65,3 +65,33 @@ li{
 #szoveg::first-letter{
     margin-left: 3%;
 }
+.navbar{
+    background-color: black;
+    width: 70%;
+    height: 3%;
+    position: absolute;
+    margin-top: 2%;
+    border: white solid 2px;
+    border-radius: 8px;
+    margin-left: 13%;
+}
+
+.button{
+    height: 100%;
+    width: 14%;
+    outline: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: none;
+    font-family:rubik-italic-variablefont_wght;
+    font-size: 14px;
+    margin-left: 2%;
+    transition-duration: 0.5s;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}

@@ -91,3 +91,34 @@ img{
         margin-left: 10%;
     }
 }
+
+.navbar{
+    background-color: #878a91;
+    width: 70%;
+    height: 5%;
+    position: absolute;
+    margin-top: 2%;
+    border: black solid 2px;
+    border-radius: 8px;
+    margin-left: 15%;
+}
+
+.button{
+    height: 100%;
+    width: 14%;
+    outline: none;
+    background-color: #878a91;
+    color: black;
+    text-align: center;
+    border: none;
+    font-family:rubik-italic-variablefont_wght;
+    font-size: 14px;
+    margin-left: 2%;
+    transition-duration: 0.5s;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}

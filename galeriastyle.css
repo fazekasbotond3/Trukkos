@@ -1,0 +1,63 @@
+@font-face {
+    font-family: rubik-italic-variablefont_wght;
+    src: url('Rubik-Italic-VariableFont_wght.ttf');
+}
+
+body, html{
+    background-color: #acafb6;
+}
+
+img{
+    width: 270px;
+    height: 200px;
+    transition-duration:0.5s ;
+    padding: 1%;
+}
+
+img:hover{
+    width: 500px;
+    height: 400px;
+    margin-top: 5%;
+}
+
+.kepek{
+    background-color: #acafb6;
+    width: 100%;
+    padding: 2%;
+    padding-left: 9%;
+    margin-top: 4%;
+}
+
+h1{
+    margin-left: 40%;
+    font-family: rubik-italic-variablefont_wght;
+}
+
+.navbar{
+    background-color: #d7dbe4;
+    width: 99%;
+    height: 8%;
+    position: absolute;
+    margin-top: 2%;
+    top: 0px;
+}
+
+.button{
+    height: 100%;
+    width: 14%;
+    outline: none;
+    background-color: #d7dbe4;
+    color: black;
+    text-align: center;
+    border: none;
+    font-family:rubik-italic-variablefont_wght;
+    font-size: 14px;
+    margin-left: 2%;
+    transition-duration: 0.5s;
+}
+
+button:hover{
+    background-color: #acafb6;
+    color: black;
+    font-weight: bolder;
+}
