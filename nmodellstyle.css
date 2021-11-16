@@ -1,0 +1,61 @@
+@font-face {
+    font-family: rubik-italic-variablefont_wght;
+    src: url('Rubik-Italic-VariableFont_wght.ttf');
+}
+
+body, html{
+    background-color: gray;
+}
+
+.content{
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: rubik-italic-variablefont_wght;
+    line-height: 180%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+    padding: 1%;
+}
+
+img{
+    float: right;
+    width: 400px;
+    height: 250px;
+    border: rgb(143, 143, 143) solid 3px;
+    position: relative;
+    transition: 1s;
+    margin-left: 1%;
+}
+
+#model{
+    margin-left: 58.12%;
+    margin-top: 0.17%;
+    position: absolute;
+    border: none;
+    opacity: 0;
+}
+
+#model:hover{
+    opacity: 1;
+}
+
+h1{
+    text-align: center;
+}
+
+#video{
+    width: 400px;
+    height: 250px;
+    margin-left: 34%;
+}
+
+p{
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+p:hover{
+    font-size: 22px;
+}

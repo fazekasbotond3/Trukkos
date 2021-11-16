@@ -43,6 +43,8 @@ img{
     box-shadow: rgb(68, 67, 67) 15px 15px 20px;
     transform: rotate(2deg);
     position: relative;
+    width: 750px;
+    height: 410px;
 }
 
 #teszt{
@@ -50,6 +52,7 @@ img{
     opacity: 0;
     transition: opacity 0.5s ease;
     margin-left: 49.65%;
+    margin-top: 0.1905%;
     border: none;
     box-shadow: none;
 }
@@ -84,6 +87,8 @@ img{
     box-shadow: rgb(68, 67, 67) 5px 5px 10px 5px;
     background-color: none;
     transform: rotate(5deg);
+    width: 200px;
+    height: 150px;
 }
 
 @media screen and (max-width:600px) {
@@ -121,4 +126,8 @@ button:hover{
     background-color: black;
     color: white;
     font-weight: bolder;
+}
+
+.navbar a{
+    text-decoration: none;
 }
