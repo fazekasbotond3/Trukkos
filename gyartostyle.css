@@ -40,6 +40,7 @@ h1{
 }
 a{
     color: rgb(32, 92, 170);
+    text-decoration: none;
 }
 video{
     width: 350px; 

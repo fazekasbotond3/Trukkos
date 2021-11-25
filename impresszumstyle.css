@@ -12,7 +12,7 @@ h1{
     color: white;
     font-size: 36px;
     font-family: rubik-italic-variablefont_wght;
-    margin-left: 45%;
+    text-align: center;
 }
 
 .content{
@@ -21,13 +21,13 @@ h1{
     width: 30%;
     margin-left: 35%;
     padding: 1%;
-    margin-top: 12%;
+    margin-top: 8%;
     border: 2px solid white;
     color: white;
     font-size: 28px;
     font-family: rubik-italic-variablefont_wght;
     text-align: center;
-    line-height: 200%;
+    line-height: 100%;
     transition: 0.5s;
 }
 
@@ -93,4 +93,8 @@ button:hover{
 
 .navbar a{
     text-decoration: none;
+}
+
+p:hover{
+    color:white;
 }
