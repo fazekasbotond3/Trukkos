@@ -1,0 +1,72 @@
+@font-face {
+    font-family: rubik-italic-variablefont_wght;
+    src: url('Rubik-Italic-VariableFont_wght.ttf');
+}
+
+body,html{
+    background-image: url(enginerhatter.jpg);
+    background-size: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+#henry{
+    width: 400px;
+    height: 600px;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 12px;
+    border: rgb(179, 179, 179) solid 3px;
+}
+
+#elso{
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: 5%;
+    padding: 1%;
+    float: right;
+    margin-right: 1%;
+    margin-top: 40%;
+    border-radius: 12px;
+    opacity: 0;
+    transition: 1s;
+    font-size: 1px;
+    line-height: 200%;
+}
+
+#henry:hover+#elso{
+    opacity: 1;
+    width: 40%;
+    margin-right: 15%;
+    font-size: 24px;
+    margin-top: 5.5%;
+    font-family: rubik-italic-variablefont_wght;
+}
+
+p{
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+    font-family: rubik-italic-variablefont_wght;
+    margin-left: 14%;
+    position: absolute;
+    margin-top: 3%;
+    color: white;
+    padding: 2%;
+    border-radius: 8px;
+    border: rgb(179, 179, 179) solid 3px;
+    transition: 0.7s;
+}
+
+ul{
+    font-size: 18px;
+}
+
+p:hover{
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    border: black solid 3px;
+    font-weight: bold;
+}
